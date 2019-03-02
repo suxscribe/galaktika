@@ -51,6 +51,7 @@
 					</ul>
 				</div>
 			</div>
+
 			<div class="text-center-small text-22-small">
                 <p class="services-blocks-title">Центр «Галактика Приключений»</p>
                 <p class="services-blocks-txt">Это уникальный проект для участников от 6 лет, где команды до 36 человек проходят игры-приключения,
@@ -155,6 +156,7 @@
 			</div>
 		</div>
 	</div>
+
 	<div class="section-grey">
 		<div class="uk-container uk-container-center container-940"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
 			<div class="uk-h1 text-stroke text-stroke_blue uk-margin-large-bottom uk-text-center">

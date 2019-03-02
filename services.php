@@ -14,7 +14,7 @@
 </div>
 <div class="section-grey">
 	<div class="uk-container uk-container-center container-940" data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
-		<div class="uk-h1 text-stroke text-stroke_blue uk-margin-large-bottom uk-text-center">Действующие акции</div>
+		<div class="uk-h1 text-stroke text-stroke_blue uk-margin-large-bottom uk-text-center services-title-all">Действующие акции</div>
 		<div class="slideshow-promo">
 			<div class="uk-slidenav-position" data-uk-slideshow>
 				<ul class="uk-slideshow">
@@ -52,72 +52,10 @@
 </div>
 
 <div class="section-white section-padding section-icons service-fix">
-	<div class="uk-container uk-container-center container-940 uk-margin-bottom" data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
-		<div class="uk-h1 text-stroke text-stroke_blue uk-margin-large-bottom uk-text-center">
-			Наши услуги
-		</div>
+	<? include 'our-services-include.php'; ?>
 
-		<div class="uk-h2 uk-margin-bottom uk-text-center uk-margin-large-bottom">
-			Проведите незабываемый праздник
-			в нашем развлекательном центре!
-		</div>
-		<div class="services-blocks uk-grid uk-grid-small uk-grid-width-large-1-3 uk-grid-width-medium-1-2 uk-grid-width-1-1 uk-margin-large-bottom" data-uk-grid-match="{target:'.service-teaser'}" data-uk-grid-margin>
-			<div>
-				<div class="service-teaser service-birthday">
-<!--					<div class="service-icon"><img src="images/icon-birthday.svg" alt=""></div>-->
-					<div class="service-name">Дни рождения</div>
-					<a href="" class="uk-position-cover"></a>
-				</div>
-			</div>
-			<div>
-				<div class="service-teaser service-group">
-<!--					<div class="service-icon"><img src="images/icon-group.svg" alt=""></div>-->
-					<div class="service-name">Групповые
-					посещения</div>
-					<a href="" class="uk-position-cover"></a>
+	<? include 'service-add-include.php'; ?>
 
-				</div>
-			</div>
-			<div>
-				<div class="service-teaser service-individual">
-<!--					<div class="service-icon"><img src="images/icon-individual.svg" alt=""></div>-->
-					<div class="service-name">Индивидуальное посещение</div>
-					<a href="" class="uk-position-cover"></a>
-
-				</div>
-			</div>
-		</div>
-		<div class="uk-text-center uk-margin-large-bottom">
-			<a href="" class="uk-button uk-button-large">Оставить заявку</a>
-		</div>
-	</div>
-
-    <div class="uk-container uk-container-center container-940" data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
-        <div class="uk-h1 service-add-h1 text-stroke text-stroke_blue uk-text-center">
-            Дополнительно
-        </div>
-        <div class="uk-grid">
-            <div class="uk-width-1-1 uk-width-large-1-2 service-add-items">
-                <img src="images/digital-camera.svg" alt="digital-camera">
-                <div class="service-add-cont">
-                    <div class="service-add-title">Фотограф</div>
-                    <p class="service-add-txt">
-                        Если Вы хотите оставить после праздника не только яркие воспоминания, но и красочные фотографии, наш
-                        фотограф с удовольствием вам в этом поможет! Просто при бронировании даты сообщите, что вам нужны
-                        услуги фотографа.
-                    </p>
-                </div>
-            </div>
-            <div class="uk-width-1-1 uk-width-large-1-2 service-add-items">
-                <img src="images/balloons.svg" alt="balloons">
-                <div class="service-add-cont">
-                    <div class="service-add-title">Воздушные шары</div>
-                    <p class="service-add-txt">Если Вы хотите красиво оформить Ваше мероприятие, мы надуем гелиевые воздушные шары.
-                        Заказать эту услугу можно заранее при бронировании праздника.</p>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
 <? include 'footer.php'; ?>

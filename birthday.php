@@ -15,118 +15,101 @@
 	
 </div>
 
-<div class="section-grey section-icons">
-	<div class="uk-container uk-container-center container-780"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
-		<div class="uk-h1 text-stroke text-stroke_blue uk-margin-large-bottom uk-text-center">Дни рождения</div>
-		
-		<article class="content">
+<div class="section-grey section-padding-top">
+    <div class="uk-container uk-container-center container-940"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
+        <div class="uk-h1 text-stroke text-stroke_blue uk-margin-large-bottom uk-text-center services-title-all">
+            День рождения<br>
+            в Галактике Приключений
+        </div>
+    </div>
+
+	<div class="uk-container uk-container-center container-780 birthday-promo"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
+		<article class="content service-width-medium">
 			<div class="uk-margin-large-bottom">
 				<img class="uk-border-rounded" src="images/article-birthday-pic.jpg" alt="">
 			</div>
-			<div class="uk-text-center uk-margin-large-bottom">
+
+			<div class="service-bid">
+                <div class="service-bid-price">
+                    От 2700 ₽
+                    <div class="service-bid-txt">за праздник в будние дни до 15.00</div>
+                </div>
 				<a href="" class="uk-button uk-button-large">Оставить заявку</a>
 			</div>
-			<h2 class="uk-margin-large-bottom">День рождения – праздник особенный, ведь все дети верят в чудеса!</h2>
-			<p class="uk-text-large uk-margin-large-bottom">Приходите в "Галактику Приключений" и подарите своему ребенку возможность стать настоящим Защитником Галактики! И, конечно, стоит захватить с собой нескольких друзей, чтобы участвовать в приключении было максимально интересно!</p>
-			<p>Мы предлагаем участникам от 6 лет приключения в духе популярного французского телешоу «Форт Боярд». Сопровождающие смогут понаблюдать за игрой в режиме реального времени и порадоваться их успехам. После неповторимого путешествия, участников ждет интересная авторская программа от нашего ведущего!
-</p>
-<p>В вашем распоряжении будет просторный зал с уютными диванами и необходимой мебелью для чаепития. Все напитки и угощения можно принести с собой.</p>
+
+			<h2 class="uk-margin-large-bottom birthday-promo-title">
+                Здесь каждый ребенок превращается в Хранителя Галактики!
+            </h2>
+
+            <p class="birthday-promo-txt uk-margin-large-bottom">Для вас эксклюзивные авторские программы от наших ведущих, игра-приключение с заданиями в формате «Форт Боярд» и просторные залы для чаепития. Все напитки и угощения можно принести с собой. Мы оборудовали наши залы всем необходимым для праздника</p>
+
+            <p><strong>В каждом зале вас ждут:</strong></p>
+
+            <ul class="">
+                <li>Космический дизайн с любимыми героями</li>
+                <li>Уютные диваны</li>
+                <li>Столы и стулья для праздника</li>
+                <li>Красивая посуда для сервировки праздничного стола</li>
+                <li>Большой экран для прямой трансляции игры</li>
+                <li>Кулер</li>
+            </ul>
+            <p>Заботливый персонал центра сам организует праздничную сервировку.</p>
 		</article>
-
-		
 	</div>
+
+	<? include 'discount-service-include.php'; ?>
 </div>
 
-<div class="section-white section-padding ">
-	<div class="uk-container uk-container-center container-780"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
-		
-		<div class="uk-h3 uk-text-center uk-margin-large-bottom">
-			Мы предлагаем 2 варианта проведения праздника:
+<div class="section-white section-padding service-margin-top">
+	<div class="uk-container uk-container-center container-780 uk-margin-large-bottom"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
+        <div class="uk-h1 text-stroke text-stroke_blue uk-margin-large-bottom uk-text-center services-title-all">
+			Мы предлагаем
 		</div>
 
-		<ul class="list-numbers list-numbers_column uk-margin-large-bottom" data-uk-grid-margin>
-			<li>
-				<div class="list-number">01.</div>
-				<div class="list-number-text">
-					<div class="uk-h2 uk-margin-small-bottom">Игра-приключение</div>
-					<p class="uk-margin-large-bottom uk-margin-top-remove">длительность 1 час 15 минут</p>
-					<p><strong>В программу входит:</strong></p>
-					<p>Игра-приключение с прохождением испытаний и решением головоломок
-					Возможность наблюдать в реальном времени за игрой участников.</p>
-					<p><strong>Стоимость мероприятия:</strong></p>
-					<p>До 12-ти человек: <br>
-					в будние дни – 4000 рублей<br>
-					в выходные, праздники и каникулы** – 5000 рублей</p>
-				</div>
-			</li>
-			<li>
-				<div class="list-number">02.</div>
-				<div class="list-number-text">
-					<div class="uk-h2 uk-margin-small-bottom">«День Рождения под ключ»</div>
-					<p class="uk-margin-large-bottom uk-margin-top-remove">длительность 2 час 30 минут</p>
-					<p><strong>В программу входит:</strong></p>
-					<p>Игра-приключение с прохождением испытаний и решением головоломок
-					Возможность наблюдать в реальном времени за игрой участников
-					Аренда праздничного зала
-					Сервировка праздничного стола
-					Авторская анимация от нашего ведущего
-					</p>
-					<p><strong>Стоимость мероприятия:</strong></p>
-					<p>До 12-ти человек: <br>
-					в будни – 7 000 рублей<br>
-					в выходные, праздники и каникулы** – 9 000 рублей</p>
+        <article class="content service-width-medium">
+            <div class="uk-margin-large-bottom">
+                <div class="list-number-text">
+                    <div class="uk-h2 uk-margin-small-bottom">День Рождения «под ключ»</div>
+                    <p class="uk-margin-large-bottom uk-margin-top-remove">длительность 2 час 30 минут</p>
+                    <p><strong>В программу входит:</strong></p>
+                    <ul class="birthday-offer-list">
+                        <li>Игра-приключение с прохождением испытаний и решением головоломок</li>
+                        <li>Возможность наблюдать в реальном времени за игрой участников</li>
+                        <li>Аренда праздничного зала</li>
+                        <li>Сервировка праздничного стола</li>
+                        <li>Авторская анимация от нашего ведущего</li>
+                    </ul>
+                    <p><strong>Стоимость мероприятия:</strong></p>
+                    <p>До 12-ти человек: <br>
+                        в будни дни* – 7000 рублей<br>
+                        в выходные, праздники и каникулы** – 9000 рублей</p>
 
-					<p>Доплата за дополнительного участника: <br>
-					 	в будни - 600 рублей в выходные, праздники и каникулы** – 750 рублей</p>
+                    <p>От 13 до 26 человек:<br>
+                        в будние дни* – 700 рублей за участника<br>
+                        в выходные, праздники и каникулы** –  900 рублей за участника
+                    </p>
+                </div>
+            </div>
 
-					<p>От 19 до 24 участников в будни – 14 000 рублей<br>
-						в выходные, праздники и каникулы** – 18 000 рублей.</p>
-					
-				</div>
-			</li>
+            <div class="uk-margin-large-bottom">
+                <p class="uk-text-small">
+                    * По будним дням до 15:00 - скидка 33% (не относится к услугам фотографа, гелиевым шарам и сувенирной продукции)
+                </p>
+                <p  class="uk-text-small">
+                    ** Дни каникул мы устанавливаем согласно рекомендуемым датам школьных каникул администрации департамента образования Нижнего Новгорода
+                </p>
+            </div>
 
-		</ul>
-
-		<div class="panel-yellow panel-yellow_note"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
-			<div class="uk-h3">Необходима предварительная запись</div>
-			<p class="uk-text-small">
-				* По будним дням до 15:00 - скидка 33% (не относится к услугам фотографа, гелиевым шарам и сувенирной продукции)</p>
-				<p  class="uk-text-small">** Дни каникул мы устанавливаем согласно рекомендуемым датам школьных каникул администрации департамента образования Нижнего Новгорода</p>
-			
-		</div>
-
-	</div>
+            <div class="panel-yellow panel-yellow_note panel-service panel-service__gbirthday">
+                Необходима предварительная запись
+            </div>
+        </article>
+    </div>
 
 
-</div>
+	<? include 'our-services-include.php'; ?>
 
-<div class="section-grey">
-	<div class="uk-container uk-container-center container-780"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
-		<div class="uk-h2 uk-margin-large-bottom uk-text-center">
-			Другие услуги
-		</div>
-		<div class="services-blocks uk-grid uk-grid-small uk-grid-width-large-1-2 uk-grid-width-medium-1-2 uk-grid-width-1-1" data-uk-grid-match="{target:'.service-teaser'}" data-uk-grid-margin>
-
-			<div>
-				<div class="service-teaser service-group">
-					<div class="service-icon"><img src="images/icon-group.svg" alt=""></div>
-					<div class="service-name">Групповые
-					посещения</div>
-					<a href="" class="uk-position-cover"></a>
-
-				</div>
-			</div>
-			<div>
-				<div class="service-teaser service-individual">
-					<div class="service-icon"><img src="images/icon-individual.svg" alt=""></div>
-					<div class="service-name">Индивидуальное посещение</div>
-					<a href="" class="uk-position-cover"></a>
-
-				</div>
-			</div>
-		</div>
-
-	</div>
+	<? include 'service-add-include.php'; ?>
 </div>
 
 <? include 'footer.php'; ?>
