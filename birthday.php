@@ -3,9 +3,9 @@
 <div class="section-top">
 	<div class="uk-container uk-container-center container-940">
 		<ul class="section-top-nav uk-hidden-small">
-			<li><a href="">Дни рождения</a></li>
-			<li><a href="">Индивидуальные посещения</a></li>
-			<li><a href="">Групповые посещения</a></li>
+            <li><a href="birthday.php">Дни рождения</a></li>
+            <li><a href="Individual.php">Индивидуальные посещения</a></li>
+            <li><a href="group.php">Групповые посещения</a></li>
 		</ul>
 		<div class="section-top-logo">
 			<img src="images/logo.png" alt="">
@@ -15,7 +15,7 @@
 	
 </div>
 
-<div class="section-grey section-padding-top">
+<div class="section-grey section-grey_icons section-padding-top">
     <div class="uk-container uk-container-center container-940"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
         <div class="uk-h1 text-stroke text-stroke_blue uk-margin-large-bottom uk-text-center services-title-all">
             День рождения<br>
@@ -34,7 +34,7 @@
                     От 2700 ₽
                     <div class="service-bid-txt">за праздник в будние дни до 15.00</div>
                 </div>
-				<a href="" class="uk-button uk-button-large">Оставить заявку</a>
+				<a href="#modal-order" class="uk-button uk-button-large" data-uk-modal>Оставить заявку</a>
 			</div>
 
 			<h2 class="uk-margin-large-bottom birthday-promo-title">

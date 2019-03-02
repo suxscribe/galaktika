@@ -256,8 +256,8 @@
 	box-sizing: border-box;
 }
 .service-teaser{
-	background-size: 140%;
-	transition: background-size 200ms linear;
+	background-size: 157%;
+	transition: background-size 200ms ease;
 }
 .service-teaser:hover{
 	background-size: 175%;
@@ -533,6 +533,7 @@ blockquote small{
 	}
 	.services-blocks-title{
 		font-size: 38px;
+		font-weight: 800;
 	}
 	.services-blocks-txt{
 		padding: 0 52px;

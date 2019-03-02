@@ -19,7 +19,7 @@
 	
 	<div class="section-white section-icons">
 		<div class="uk-container uk-container-center container-940 padding-LR-48">
-			<div class="slideshow-promo slideshow-promo_pulltop">
+			<div class="slideshow-promo slideshow-promo_pulltop uk-margin-large-bottom">
 				<div class="uk-slidenav-position" data-uk-slideshow>
 					<ul class="uk-slideshow">
 						<li>
@@ -34,10 +34,20 @@
 						</li>
 						<li>
 							<div class="slideshow-promo-slide">
-								<div class="slide-image"><img src="images/slide-image.jpg" alt=""></div>
+								<div class="slide-image"><img src="images/slide-image-01.jpg" alt=""></div>
 								<div class="slide-content">
-									<div class="slide-title uk-h1 text-stroke">Скидка 23%</div>
-									<div class="slide-text">в будние дни до 15:00</div>
+									<div class="slide-title uk-h1 text-stroke">День Рождения </div>
+									<div class="slide-text">в стиле приключенческой игры</div>
+									<a class="uk-button slide-button">Подробнее</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="slideshow-promo-slide">
+								<div class="slide-image"><img src="images/slide-image-02.jpg" alt=""></div>
+								<div class="slide-content">
+									<div class="slide-title uk-h1 text-stroke">Выпускной</div>
+									<div class="slide-text">для младших классов и групп детских садов</div>
 									<a class="uk-button slide-button">Подробнее</a>
 								</div>
 							</div>
@@ -48,11 +58,12 @@
 					<ul class="uk-dotnav uk-flex-center">
 						<li data-uk-slideshow-item="0"><a href=""></a></li>
 						<li data-uk-slideshow-item="1"><a href=""></a></li>
+						<li data-uk-slideshow-item="2"><a href=""></a></li>
 					</ul>
 				</div>
 			</div>
 
-			<div class="text-center-small text-22-small">
+			<div class="text-center-small text-22-small uk-margin-large-bottom">
                 <p class="services-blocks-title">Центр «Галактика Приключений»</p>
                 <p class="services-blocks-txt">Это уникальный проект для участников от 6 лет, где команды до 36 человек проходят игры-приключения,
                     решают головоломки и становятся настоящими Хранителями Галактики, открывая в себе новые невероятные
@@ -85,7 +96,7 @@
 				</div>
 			</div>
 			<div class="uk-text-center uk-margin-large-bottom">
-				<a href="" class="uk-button uk-button-large">Оставить заявку</a>
+				<a href="#modal-order"  class="uk-button uk-button-large" data-uk-modal>Оставить заявку</a>
 			</div>
 		</div>
 	</div>

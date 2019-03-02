@@ -1,6 +1,8 @@
 <?php
-	if ( '/services.php' == $_SERVER['REQUEST_URI'] ){ ?>
-		<div class="uk-container uk-container-center container-940 uk-margin-bottom" data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
+//echo $_SERVER['REQUEST_URI'];
+	//if ( '/services.php' == $_SERVER['REQUEST_URI'] ){ 
+		if ( strpos($_SERVER['REQUEST_URI'],'/services.php')){ ?>
+		<div class="page-services-block uk-container uk-container-center container-940" data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
 			<div class="uk-h1 text-stroke text-stroke_blue uk-margin-large-bottom uk-text-center">
 				Наши услуги
 			</div>

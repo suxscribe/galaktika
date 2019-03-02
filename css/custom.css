@@ -251,6 +251,7 @@ h4, .uk-h4 {
 	background: url('../images/section-top-bg.jpg') no-repeat;
 	background-size: cover;
 	padding: 45px 0 0 0;
+	background-attachment: fixed;
 
 }
 
@@ -300,7 +301,7 @@ h4, .uk-h4 {
 	padding: 80px 0;
 }
 .section-icons {
-	background: url(../images/section-white-bg.svg) no-repeat;
+	background: url(../images/section-white-bg-2.svg) no-repeat;
 	background-size: 1100px;
 	background-position: center;
 }
@@ -442,6 +443,10 @@ h4, .uk-h4 {
 	background: #9E2EFF;
 }
 
+.page-services-block {
+	margin-bottom: 100px;
+}
+
 .services-blocks {
 	/*margin-bottom: 60px;*/
 }
@@ -477,6 +482,9 @@ h4, .uk-h4 {
 .service-teaser:hover {
 	background-size: 110%;
 }
+.service-teaser .uk-position-cover {
+	z-index: 2;
+}
 .service-name {
 	font-weight: 800;
 	color: #fff;
@@ -505,7 +513,10 @@ h4, .uk-h4 {
 	background: url(../images/section-like-bg.jpg) no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-attachment: fixed;
+
 	color: #fff;
+
 }
 .section-like * {
 	color: #fff;
@@ -535,6 +546,12 @@ h4, .uk-h4 {
 	background: url(../images/section-grey-bg.jpg) no-repeat;
 	background-size: cover;
 	position: relative;
+}
+.section-grey_icons {
+	background: url(../images/section-white-bg-2.svg) no-repeat,url(../images/section-grey-bg.jpg) no-repeat;
+	background-size: 1300px,cover;
+	background-position: center;
+
 }
 .tabs-switcher {
 	margin-bottom: 0;
@@ -648,6 +665,7 @@ h4, .uk-h4 {
 	background: url(../images/section-panel-bg.jpg) no-repeat;
 	background-size: cover;
 	padding: 80px 0;
+	background-attachment: fixed;
 }
 
 .panel-white {
@@ -681,6 +699,9 @@ h4, .uk-h4 {
 }
 
 .section-contacts {
+	background: url(../images/section-contacts-bg.svg) no-repeat,url(../images/section-grey-bg.jpg) no-repeat;
+	background-size: 1100px,cover;
+	background-position: center;
 
 }
 
@@ -877,6 +898,7 @@ textarea.input_field.input_filled ~ .input_label {
 	color: var(--blue);
 	font-size: 12px;
 	line-height: 16px;
+	margin-top: 8px;
 }
 
 /* FOOTER */
@@ -886,6 +908,9 @@ footer {
 	background: url(../images/footer-bg.jpg) no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-size: 100vw;
+	background-attachment: fixed;
+	background-position: bottom;
 }
 .footer-socials {
 	font-size: 40px;

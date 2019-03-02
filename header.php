@@ -21,6 +21,7 @@
 	<link rel="stylesheet" href="css/components/slidenav.min.css">
 	<link rel="stylesheet" href="css/components/tab">
 	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/my-style.css">
 
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="https://api-maps.yandex.ru/2.1/?apikey=d4e6eee7-7efa-4043-aaed-c08551d2d3d6&lang=ru_RU" type="text/javascript"></script>
@@ -46,17 +47,17 @@
 
 						<div class="uk-dropdown uk-dropdown-nav">
 							<ul class="uk-nav uk-nav-navbar">
-								<li><a href="#">Дни рождения</a></li>
-								<li><a href="#">Индивидуальные посещения</a></li>
-								<li><a href="#">Групповые посещения</a></li>
-								<li><a href="#">Акции</a></li>
+								<li><a href="birthday.php">Дни рождения</a></li>
+								<li><a href="Individual.php">Индивидуальные посещения</a></li>
+								<li><a href="group.php">Групповые посещения</a></li>
+								<li><a href="">Акции</a></li>
 							</ul>
 						</div>
 
 					</li>
-					<li><a href="">Отзывы</a></li>
-					<li><a href="">Контакты</a></li>
-					<li><a href="">Франшиза</a></li>
+					<li><a href="reviews.php">Отзывы</a></li>
+					<li><a href="contacts.php">Контакты</a></li>
+					<li><a href="franchize.php">Франшиза</a></li>
 				</nav>
 				<div class="top-right uk-flex uk-flex-middle uk-flex-item-none">
 					<div class="top-contacts">
