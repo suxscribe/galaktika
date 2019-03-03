@@ -7,8 +7,9 @@
 			<li><a href="">Групповые посещения</a></li>
 		</ul>
 		<div class="section-top-logo">
-			<img src="images/logo.png" alt="">
+			<a href="index.php"><img src="images/logo.png" alt=""></a>
 		</div>
+
 	</div>
 	
 </div>

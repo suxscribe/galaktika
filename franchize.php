@@ -3,8 +3,9 @@
     <div class="section-top">
         <div class="uk-container uk-container-center container-940">
             <div class="section-top-logo">
-                <img src="images/logo.png" alt="">
+                <a href="index.php"><img src="images/logo.png" alt=""></a>
             </div>
+
             <div class="section-top-title franchize-title uk-margin-large-bottom">
                 Давайте вместе откроем лучший детский развлекательный центр в вашем городе!
             </div>

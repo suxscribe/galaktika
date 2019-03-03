@@ -7,9 +7,10 @@
             <li><a href="Individual.php">Индивидуальные посещения</a></li>
             <li><a href="group.php">Групповые посещения</a></li>
 		</ul>
-		<div class="section-top-logo">
-			<img src="images/logo.png" alt="">
-		</div>
+        <div class="section-top-logo">
+            <a href="index.php"><img src="images/logo.png" alt=""></a>
+        </div>
+
 
 	</div>
 	
