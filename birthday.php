@@ -15,7 +15,7 @@
 	
 </div>
 
-<div class="section-grey section-grey_icons section-padding-top">
+<div class="section-grey section-grey_icons-2 section-padding-top">
     <div class="uk-container uk-container-center container-940"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
         <div class="uk-h1 text-stroke text-stroke_blue uk-margin-large-bottom uk-text-center services-title-all">
             День рождения<br>
@@ -107,9 +107,14 @@
     </div>
 
 
-	<? include 'our-services-include.php'; ?>
+</div>
 
-	<? include 'service-add-include.php'; ?>
+<div class="section-white  section-icons_two uk-margin-large-bottom">
+
+        <? include 'our-services-include.php'; ?>
+
+        <? include 'service-add-include.php'; ?>
+
 </div>
 
 <? include 'footer.php'; ?>

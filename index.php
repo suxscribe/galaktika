@@ -47,7 +47,7 @@
 								<div class="slide-image"><img src="images/slide-image-02.jpg" alt=""></div>
 								<div class="slide-content">
 									<div class="slide-title uk-h1 text-stroke">Выпускной</div>
-									<div class="slide-text">для младших классов и групп детских садов</div>
+									<div class="slide-text">для младших классов <br>и&nbsp;групп детских садов</div>
 									<a class="uk-button slide-button">Подробнее</a>
 								</div>
 							</div>

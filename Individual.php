@@ -15,7 +15,7 @@
 
 	</div>
 
-	<div class="section-grey section-grey_icons">
+	<div class="section-grey section-grey_icons-2">
 <!--		<div class="section-icons section-icons_absolute"></div>-->
 		<div class="uk-container uk-container-center container-780 uk-margin-large-bottom" data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
 			<div class="uk-h1 text-stroke text-stroke_blue uk-margin-large-bottom uk-text-center services-title-all">Индивидуальные посещения</div>
@@ -85,9 +85,14 @@
 
 		</div>
 
-		<? include 'our-services-include.php'; ?>
+	</div>
 
-		<? include 'service-add-include.php'; ?>
+	<div class="section-white  section-icons_two uk-margin-large-bottom">
+
+	        <? include 'our-services-include.php'; ?>
+
+	        <? include 'service-add-include.php'; ?>
+
 	</div>
 
 <? include 'footer.php'; ?>

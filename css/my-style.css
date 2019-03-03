@@ -1,5 +1,5 @@
 .slideshow-promo-slide{
-	padding: 0 18px;
+	/*padding: 0 18px;*/
 }
 .slide-content{
 	text-align: center;
@@ -171,10 +171,11 @@
 	line-height: 24px;
 	background: none;
 }
-.like-franchize-subtitle{
-	font-size: 20px;
+.like-franchize-subtitle {
+	font-size: 26px;
 	line-height: 26px;
 	margin-bottom: 10px;
+	font-weight: 800;
 }
 .uk-button__franchize{
 	color: #000;
@@ -183,6 +184,7 @@
 	padding: 80px	0 75px 0;
 	background: url(../images/section-like-bg.jpg) no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 .franchize-numbers .uk-h2{
 	color: #fff;
@@ -229,17 +231,18 @@
 }
 .slide-service .slide-text{
 	margin-bottom: 10px;
+	font-size: 232px;
 }
 .birthday-promo{
-	margin-bottom: 60px;
+	margin-bottom: 120px;
 }
 .birthday-promo-title{
-	font-size: 26px;
-	line-height: 28px;
+	font-size: 38px;
+	line-height: 40px;
 }
 .birthday-promo-txt{
-	font-size: 20px;
-	line-height: 26px;
+	font-size: 32px;
+	line-height: 44px;
 }
 .service-margin-top{
 	margin-top: 30px;
@@ -275,17 +278,18 @@
 	text-align: center;
 	padding-bottom: 35px;
 	border-bottom: 2px solid #A901FD;
-	margin-bottom: 55px;
+	margin-bottom: 120px;
 }
 .service-bid-price{
 	font-size: 38px;
 	line-height: 40px;
-
+	font-weight: 800;
 }
 .service-bid-txt{
 	font-size: 20px;
 	line-height: 26px;
 	margin-bottom: 25px;
+	font-weight: 400;
 }
 .service-container{
 	margin-top: 50px;
@@ -345,15 +349,16 @@ blockquote small{
 	}
 	.slide-content{
 		text-align: left;
-		margin: auto;
+		/*margin: auto;*/
 	}
 	.slide-title{
 		font-size: 80px;
 		line-height: 70px;
 	}
-	.slide-text{
+	.slide-text {
 		font-size: 44px;
 		line-height: 43px;
+		font-weight: 800;
 	}
 	.services-blocks-title{
 		font-size: 36px;
@@ -430,9 +435,10 @@ blockquote small{
 		line-height: 20px;
 		padding: 30px 65px;
 	}
-	.franchize-title{
+	.franchize-title {
 		font-size: 38px;
 		line-height: 40px;
+		font-weight: 400;
 	}
 	.section-top-subtitle{
 		font-size: 22px;
@@ -483,7 +489,7 @@ blockquote small{
 		margin: auto;
 	}
 	.service-margin-top{
-		margin-top: 75px;
+		margin-top: 105px;
 	}
 	.service-height{
 		height: 240px;
@@ -526,7 +532,7 @@ blockquote small{
 
 @media (min-width: 1160px){
 	.slide-content{
-		margin-left: 70px;
+		/*margin-left: 70px;*/
 	}
 	.slide-text{
 		text-align: left;
