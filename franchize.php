@@ -20,9 +20,9 @@
     </div>
 
     <div class="section-grey section-padding">
-        <div class="uk-container uk-container-center container-940"
+        <div class="uk-container uk-container-center container-940 "
              data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
-            <div class="grid-numbers uk-grid">
+            <div class="grid-numbers uk-grid ">
                 <div class="uk-width-large-2-5">
                     <div class="grid-number-item">
                         <div class="grid-number grid-number_small grid-number_1">
@@ -46,7 +46,7 @@
 
                 </div>
             </div>
-            <div class="grid-numbers grid-numbers_bottom uk-grid">
+            <div class="grid-numbers grid-numbers_bottom uk-grid uk-margin-large-bottom">
                 <div class="uk-width-large-2-5">
 
                     <div class="grid-number-item">
@@ -70,6 +70,13 @@
                     </div>
                 </div>
             </div>
+
+            <div class="franchize-video">
+                <video controls>
+                  <source src="images/galaktika.mp4" type="video/mp4">
+                </video>
+            </div>
+
         </div>
     </div>
 
