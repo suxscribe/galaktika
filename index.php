@@ -72,14 +72,12 @@
 			<div class="services-blocks-padding services-blocks uk-grid uk-grid-small uk-grid-width-large-1-3 uk-grid-width-medium-1-2 uk-grid-width-1-1 uk-margin-large-bottom" data-uk-grid-match="{target:'.service-teaser'}" data-uk-grid-margin>
 				<div>
 					<div class="service-teaser service-birthday">
-<!--						<div class="service-icon"><img src="images/icon-birthday.svg" alt=""></div>-->
 						<div class="service-name">Дни рождения</div>
 						<a href="" class="uk-position-cover"></a>
 					</div>
 				</div>
 				<div>
 					<div class="service-teaser service-group">
-<!--						<div class="service-icon"><img src="images/icon-group.svg" alt=""></div>-->
 						<div class="service-name">Групповые
 						посещения</div>
 						<a href="" class="uk-position-cover"></a>
@@ -88,10 +86,8 @@
 				</div>
 				<div>
 					<div class="service-teaser service-individual">
-<!--						<div class="service-icon"><img src="images/icon-individual.svg" alt=""></div>-->
 						<div class="service-name">Индивидуальное посещение</div>
 						<a href="" class="uk-position-cover"></a>
-
 					</div>
 				</div>
 			</div>
@@ -112,61 +108,176 @@
 				<div>
 					<div class="like-item">
 						<div class="like-icon"><img src="images/holding-a-holiday-1.jpg" alt=""></div>
-						<div class="like-text">
+						<a href="#modal-like-item-1" data-uk-modal class="like-text">
                             <p class="text-stroke">01</p>
                             10 интерактивных площадок с прохождением испытаний разной сложности для участников от 6 лет
-                        </div>
+                        </a>
 					</div>
 				</div>
 				<div>
 					<div class="like-item">
 						<div class="like-icon"><img src="images/holding-a-holiday-2.jpg" alt=""></div>
-						<div class="like-text">
+                        <a href="#modal-like-item-2" data-uk-modal class="like-text">
                             <p class="text-stroke">02</p>
                             Более 400 кв.м для проведения веселого мероприятия с праздничным застольем и развлекательной авторской программой
-                        </div>
+                        </a>
 					</div>
 				</div>
 				<div>
 					<div class="like-item">
 						<div class="like-icon"><img src="images/holding-a-holiday-3.jpg" alt=""></div>
-                        <div class="like-text">
+                        <a href="#modal-like-item-3" data-uk-modal class="like-text">
                             <p class="text-stroke">03</p>
                             Фантастический галактический дизайн с любимыми детскими супергероями
-                        </div>
+                        </a>
 					</div>
 				</div>
 				<div>
 					<div class="like-item">
 						<div class="like-icon"><img src="images/holding-a-holiday-4.jpg" alt=""></div>
-                        <div class="like-text">
+                        <a href="#modal-like-item-4" data-uk-modal class="like-text">
                             <p class="text-stroke">04</p>
-                            Задания и аттракционы,<br> разработанные<br> профессиональными психологами, педагогами и игротехниками
-                        </div>
+                            Задания и аттракционы, разработанные профессиональными психологами, педагогами и игротехниками
+                        </a>
 					</div>
 				</div>
 				<div>
 					<div class="like-item">
 						<div class="like-icon"><img src="images/holding-a-holiday-5.jpg" alt=""></div>
-                        <div class="like-text">
+                        <a href="#modal-like-item-5" data-uk-modal class="like-text">
                             <p class="text-stroke">05</p>
                             Гарантия полной безопасности – приключения под контролем профессиональных инструкторов
-                        </div>
+                        </a>
 					</div>
 				</div>
 				<div>
 					<div class="like-item">
 						<div class="like-icon"><img src="images/holding-a-holiday-6.jpg" alt=""></div>
-                        <div class="like-text">
+                        <a href="#modal-like-item-6" data-uk-modal class="like-text">
                             <p class="text-stroke">06</p>
-                            Возможность для<br> сопровождающих наблюдать за игрой по телевизору в отдельном зале на удобных диванах
-                        </div>
+                            Возможность для сопровождающих наблюдать за игрой по телевизору в отдельном зале на удобных диванах
+                        </a>
 					</div>
 				</div>
 
 			</div>
-		</div>
-	</div>
+		</div><!-- .container-940 -->
+
+        <div id="modal-like-item-1" class="uk-modal">
+            <div class="uk-modal-dialog">
+                <button type="button" class="uk-modal-close uk-close"></button>
+                <div class="uk-modal-header">
+                    <h2>Заголовок1</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+            </div>
+        </div><!-- #modal-like-item-1 -->
+
+        <div id="modal-like-item-2" class="uk-modal">
+            <div class="uk-modal-dialog">
+                <button type="button" class="uk-modal-close uk-close"></button>
+                <div class="uk-modal-header">
+                    <h2>Заголовок2</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+            </div>
+        </div><!-- #modal-like-item-2 -->
+
+        <div id="modal-like-item-3" class="uk-modal">
+            <div class="uk-modal-dialog">
+                <button type="button" class="uk-modal-close uk-close"></button>
+                <div class="uk-modal-header">
+                    <h2>Заголовок3</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+            </div>
+        </div><!-- #modal-like-item-3 -->
+
+        <div id="modal-like-item-4" class="uk-modal">
+            <div class="uk-modal-dialog">
+                <button type="button" class="uk-modal-close uk-close"></button>
+                <div class="uk-modal-header">
+                    <h2>Заголовок4</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+            </div>
+        </div><!-- #modal-like-item-4 -->
+
+        <div id="modal-like-item-5" class="uk-modal">
+            <div class="uk-modal-dialog">
+                <button type="button" class="uk-modal-close uk-close"></button>
+                <div class="uk-modal-header">
+                    <h2>Заголовок5</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+            </div>
+        </div><!-- #modal-like-item-5 -->
+
+        <div id="modal-like-item-6" class="uk-modal">
+            <div class="uk-modal-dialog">
+                <button type="button" class="uk-modal-close uk-close"></button>
+                <div class="uk-modal-header">
+                    <h2>Заголовок6</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+            </div>
+        </div><!-- #modal-like-item-6 -->
+
+	</div><!-- .section-like -->
 
 	<div class="section-grey">
 		<div class="uk-container uk-container-center container-940"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
@@ -257,27 +368,26 @@
 			</div>
 		</div>
 	</div>
-	<div class="section-contacts section-grey section-padding">
-		<div class="uk-container uk-container-center container-940"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
-			<div class="uk-h1 text-stroke text-stroke_blue uk-text-center uk-margin-large-bottom">Как нас найти?</div>
-			<div class="contacts-grid uk-grid uk-flex-middle" data-uk-grid-margin>
-				<div class="contacts-grid-map uk-width-medium-1-3" >
-					<div>
-						<img src="images/contacts-map.png" alt="">
-					</div>
-				</div>
-				<div class="contacts-grid-text uk-width-medium-2-3">
-					<p>
-						<strong>Центр "Галактика приключений"</strong>
-					</p>
-					<p>Н. Новгород, Сормовское шоссе 20, 
-					ТЦ "Новая эра", этаж 5</p>
-					<p class="text-26"><strong>8 (831) 414-63-33</strong></p>
-					<p class="uk-text-small uk-margin-large-bottom">Мы работаем ежедневно с 10:00 до 20:30</p>
-					<p><a href="" class="uk-button button-56 uk-button__fix">Оставить заявку</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="section-contacts section-grey section-padding">
+        <div class="uk-container uk-container-center container-940"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
+            <div class="uk-h1 contacts-grid-title text-stroke text-stroke_blue uk-text-center uk-margin-large-bottom">
+                Как нас найти?
+            </div>
+
+            <div class="contacts-grid">
+                <div class="contacts-grid-map" >
+                    <img src="images/contacts-map.png" alt="">
+                </div>
+
+                <div class="contacts-grid-text">
+                    <p class="contacts-grid-text-title"><strong>Центр "Галактика приключений"</strong></p>
+                    <p class="contacts-grid-text-addres">Н. Новгород, Сормовское шоссе 20, ТЦ "Новая эра", этаж 5</p>
+                    <p class="contacts-grid-text-tel"><strong>8 (831) 414-63-33</strong></p>
+                    <p class="contacts-grid-text-graph">Мы работаем ежедневно с 10:00 до 20:30</p>
+                    <p><a href="" class="uk-button button-56 uk-button__fix">Оставить заявку</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <? include 'footer.php'; ?>

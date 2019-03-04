@@ -20,8 +20,7 @@
     </div>
 
     <div class="section-grey section-padding">
-        <div class="uk-container uk-container-center container-940"
-             data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
+        <div class="uk-container uk-container-center container-940" data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
             <div class="grid-numbers uk-grid">
                 <div class="uk-width-large-2-5">
                     <div class="grid-number-item">
@@ -69,6 +68,11 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+
+            <div class="review-video">
+                <iframe src="https://www.youtube-nocookie.com/embed/G_dZf-2cJWg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </div>
