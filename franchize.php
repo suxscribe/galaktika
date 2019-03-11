@@ -156,7 +156,7 @@
         </div>
     </div>
 
-    <div class="section-grey section-padding">
+    <div class="section-white section-padding">
         <div class="uk-container container-780" data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
             <div class="uk-h1 uk-text-center text-stroke text-stroke_blue uk-margin-large-bottom">6 простых шагов</div>
             <div class="uk-h2 uk-margin-large-bottom uk-text-center">
@@ -164,33 +164,33 @@
             </div>
             <ul class="list-numbers uk-grid uk-grid-width-medium-1-2" data-uk-grid-margin data-uk-grid-match>
                 <li>
-                    <div class="list-number">01.</div>
+                    <div class="list-number grid-number">01.</div>
                     <div class="list-number-text">Изучите информацию представленную на сайте или запросите
                         презентацию.
                     </div>
                 </li>
                 <li>
-                    <div class="list-number">02.</div>
+                    <div class="list-number grid-number">02.</div>
                     <div class="list-number-text">Посетите один из наших центров и пообщайтесь с собственниками
                         бизнеса.
                     </div>
                 </li>
                 <li>
-                    <div class="list-number">03.</div>
+                    <div class="list-number grid-number">03.</div>
                     <div class="list-number-text">Найдите подходящие помещения в Вашем городе и проконсультируйтесь с
                         нами.
                     </div>
                 </li>
                 <li>
-                    <div class="list-number">04.</div>
+                    <div class="list-number grid-number">04.</div>
                     <div class="list-number-text">Заключите Договор и оплатите паушальный взнос</div>
                 </li>
                 <li>
-                    <div class="list-number">05.</div>
+                    <div class="list-number grid-number">05.</div>
                     <div class="list-number-text">Получите полный комплект документов</div>
                 </li>
                 <li>
-                    <div class="list-number">06.</div>
+                    <div class="list-number grid-number">06.</div>
                     <div class="list-number-text">Откройте с нашей всесторонней поддержкой Ваш Детский Центр</div>
                 </li>
             </ul>

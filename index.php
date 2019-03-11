@@ -18,7 +18,7 @@
 	</div>
 	
 	<div class="section-white section-icons">
-		<div class="uk-container uk-container-center container-940 padding-LR-48">
+		<div class="uk-container uk-container-center container-940 "> <!-- padding-LR-48 -->
 			<div class="slideshow-promo slideshow-promo_pulltop uk-margin-large-bottom">
 				<div class="uk-slidenav-position" data-uk-slideshow>
 					<ul class="uk-slideshow">
@@ -114,7 +114,7 @@
 						<div class="like-icon"><img src="images/holding-a-holiday-1.jpg" alt=""></div>
 						<div class="like-text">
                             <p class="text-stroke">01</p>
-                            10 интерактивных площадок с прохождением испытаний разной сложности для участников от 6 лет
+                            10&nbsp;интерактивных площадок с&nbsp;прохождением испытаний разной сложности для участников от&nbsp;6&nbsp;лет
                         </div>
 					</div>
 				</div>
@@ -123,7 +123,7 @@
 						<div class="like-icon"><img src="images/holding-a-holiday-2.jpg" alt=""></div>
 						<div class="like-text">
                             <p class="text-stroke">02</p>
-                            Более 400 кв.м для проведения веселого мероприятия с праздничным застольем и развлекательной авторской программой
+                            Более 400 кв.м для проведения веселого мероприятия с&nbsp;праздничным застольем и&nbsp;развлекательной авторской программой
                         </div>
 					</div>
 				</div>
@@ -132,7 +132,7 @@
 						<div class="like-icon"><img src="images/holding-a-holiday-3.jpg" alt=""></div>
                         <div class="like-text">
                             <p class="text-stroke">03</p>
-                            Фантастический галактический дизайн с любимыми детскими супергероями
+                            Фантастический галактический дизайн с&nbsp;любимыми детскими супергероями
                         </div>
 					</div>
 				</div>
@@ -141,7 +141,7 @@
 						<div class="like-icon"><img src="images/holding-a-holiday-4.jpg" alt=""></div>
                         <div class="like-text">
                             <p class="text-stroke">04</p>
-                            Задания и аттракционы,<br> разработанные<br> профессиональными психологами, педагогами и игротехниками
+                            Задания и&nbsp;аттракционы, разработанные профессиональными психологами, педагогами и&nbsp;игротехниками
                         </div>
 					</div>
 				</div>
@@ -150,7 +150,7 @@
 						<div class="like-icon"><img src="images/holding-a-holiday-5.jpg" alt=""></div>
                         <div class="like-text">
                             <p class="text-stroke">05</p>
-                            Гарантия полной безопасности – приключения под контролем профессиональных инструкторов
+                            Гарантия полной безопасности&nbsp;&mdash; приключения под контролем профессиональных инструкторов
                         </div>
 					</div>
 				</div>
@@ -159,7 +159,7 @@
 						<div class="like-icon"><img src="images/holding-a-holiday-6.jpg" alt=""></div>
                         <div class="like-text">
                             <p class="text-stroke">06</p>
-                            Возможность для<br> сопровождающих наблюдать за игрой по телевизору в отдельном зале на удобных диванах
+                            Возможность для сопровождающих наблюдать за&nbsp;игрой по&nbsp;телевизору в&nbsp;отдельном зале на&nbsp;удобных диванах
                         </div>
 					</div>
 				</div>
@@ -174,15 +174,20 @@
 				Наши приключения
 			</div>
 			<ul class="tabs-switcher uk-subnav uk-subnav-pill uk-flex-center" data-uk-switcher="{connect:'#tabs-photo-video'}">
-				<li><a href="">Фото</a></li>
 				<li><a href="">Видео</a></li>
+				<li><a href="">Фото</a></li>
 			</ul>
 
 			<!-- This is the container of the content items -->
 			<ul id="tabs-photo-video" class="uk-switcher">
 				<li>
+					<div class="slide">
+						<img src="images/prikluchenya-slide.jpg" alt="">
+					</div>
+				</li>
+				<li >
 					<div class="slideshow-photo">
-						<div class="uk-slidenav-position" data-uk-slideshow>
+						<div class="uk-slidenav-position" data-uk-slideshow data-uk-check-display>
 							<ul class="uk-slideshow">
 								<li>
 									<div class="slide">
@@ -204,11 +209,7 @@
 						</div>
 					</div>
 				</li>
-				<li>
-					<div class="slide">
-						<img src="images/prikluchenya-slide.jpg" alt="">
-					</div>
-				</li>
+				
 			</ul>
 		</div>
 	</div>
@@ -258,22 +259,22 @@
 		</div>
 	</div>
 	<div class="section-contacts section-grey section-padding">
-		<div class="uk-container uk-container-center container-940"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
+		<div class="uk-container uk-container-center container-780"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
 			<div class="uk-h1 text-stroke text-stroke_blue uk-text-center uk-margin-large-bottom">Как нас найти?</div>
 			<div class="contacts-grid uk-grid uk-flex-middle" data-uk-grid-margin>
-				<div class="contacts-grid-map uk-width-medium-1-3" >
+				<div class="contacts-grid-map uk-width-medium-1-2" >
 					<div>
 						<img src="images/contacts-map.png" alt="">
 					</div>
 				</div>
-				<div class="contacts-grid-text uk-width-medium-2-3">
+				<div class="contacts-grid-text uk-width-medium-1-2">
 					<p>
 						<strong>Центр "Галактика приключений"</strong>
 					</p>
 					<p>Н. Новгород, Сормовское шоссе 20, 
 					ТЦ "Новая эра", этаж 5</p>
-					<p class="text-26"><strong>8 (831) 414-63-33</strong></p>
-					<p class="uk-text-small uk-margin-large-bottom">Мы работаем ежедневно с 10:00 до 20:30</p>
+					<p class="text-26 uk-margin-remove-bottom"><strong>8 (831) 414-63-33</strong></p>
+					<p class="uk-text-small uk-margin-large-bottom uk-margin-top-remove">Мы работаем ежедневно с 10:00 до 20:30</p>
 					<p><a href="" class="uk-button button-56 uk-button__fix">Оставить заявку</a></p>
 				</div>
 			</div>

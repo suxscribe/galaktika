@@ -42,8 +42,9 @@
 				</div>
 				<nav class="uk-subnav uk-flex-item-1 uk-visible-large">
 					<li><a href="">Нижний Новгород</a></li>
+					<li><a href="">Главная</a></li>
 					<li class="uk-parent" data-uk-dropdown>
-						<a href="">Услуги и цены</a>
+						<a href="services.php">Услуги и цены</a>
 
 						<div class="uk-dropdown uk-dropdown-nav">
 							<ul class="uk-nav uk-nav-navbar">
