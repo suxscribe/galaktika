@@ -1,3 +1,9 @@
+.uk-modal h2,
+.uk-modal p,
+.uk-modal-close *,
+.uk-close::after{
+	color: #000 !important;
+}
 .slideshow-promo-slide{
 	/*padding: 0 18px;*/
 }
@@ -32,6 +38,13 @@
 	line-height: 40px;
 	margin-top: 16px;
 	margin-bottom: 40px;
+}
+.like-list-index .like-text{
+	font-size: 20px;
+	line-height: 24px;
+}
+.like-text:hover{
+	color: #fff;
 }
 .like-item{
 	position: relative;
@@ -72,7 +85,9 @@
 	font-size: 40px;
 	line-height: 40px;
 	margin-bottom: 5px;
+
 	font-weight: 600;
+
 }
 .section-panel .panel-white{
 	padding-top: 83px;
@@ -235,6 +250,7 @@
 .slide-service .slide-text{
 	margin-bottom: 10px;
 	font-size: 23px;
+
 }
 .birthday-promo{
 	margin-bottom: 120px;
@@ -249,9 +265,6 @@
 }
 .service-margin-top{
 	margin-top: 30px;
-}
-.birthday-offer-list{
-
 }
 .panel-service{
 	font-size: 16px;
@@ -342,6 +355,41 @@ blockquote small{
 .uk-flex-wrap__adaptive{
 	flex-wrap: wrap;
 }
+.contacts-grid-title{
+	font-size: 65px;
+}
+.contacts-grid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.contacts-grid-map{
+	flex-basis: 278px;
+	margin-bottom: 35px;
+}
+.contacts-grid-text{
+	flex-basis: 302px;
+}
+.contacts-grid-text p{
+	margin: 0;
+}
+.contacts-grid-text .contacts-grid-text-title{
+	font-size: 19px;
+	line-height: 32px;
+}
+.contacts-grid-text .contacts-grid-text-addres{
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 5px;
+}
+.contacts-grid-text .contacts-grid-text-tel{
+	font-size: 22px;
+	line-height: 32px;
+	margin-bottom: 5px;
+}
+.contacts-grid-text .contacts-grid-text-graph{
+	margin-bottom: 30px;
+}
 
 
 
@@ -358,7 +406,7 @@ blockquote small{
 		font-size: 80px;
 		line-height: 70px;
 	}
-	.slide-text {
+	.slide-text{
 		font-size: 44px;
 		line-height: 43px;
 		font-weight: 800;
@@ -438,7 +486,7 @@ blockquote small{
 		line-height: 20px;
 		padding: 30px 65px;
 	}
-	.franchize-title {
+	.franchize-title{
 		font-size: 38px;
 		line-height: 40px;
 		font-weight: 400;
@@ -530,6 +578,35 @@ blockquote small{
 	}
 	.panel-service__group{
 		width: 608px;
+	}
+	.contacts-grid-map{
+		flex-basis: 344px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 0;
+		order: 1;
+	}
+	.contacts-grid-text{
+		flex-basis: 100%;
+		width: 360px;
+		text-align: center;
+		margin-bottom: 55px;
+	}
+	.contacts-grid-text .contacts-grid-text-title{
+		font-size: 22px;
+	}
+	.contacts-grid-text .contacts-grid-text-addres{
+		font-size: 22px;
+		line-height: 26px;
+		padding: 0 30%;
+		margin-bottom: 20px;
+	}
+	.contacts-grid-text .contacts-grid-text-tel{
+		line-height: 26px;
+	}
+	.contacts-grid-text .contacts-grid-text-graph{
+		font-size: 18px;
+		margin-bottom: 20px;
 	}
 }/* 768px */
 
@@ -652,5 +729,31 @@ blockquote small{
 	}
 	.uk-flex-wrap__adaptive{
 		flex-wrap: nowrap;
+	}
+	.contacts-grid-map{
+		margin-left: 60px;
+		margin-right: 75px;
+		order: 0;
+	}
+	.contacts-grid-text{
+		flex-basis: 360px;
+		align-self: center;
+		width: 360px;
+		text-align: left;
+		margin-bottom: 0;
+	}
+	.contacts-grid-text .contacts-grid-text-title{
+		margin-bottom: 5px;
+	}
+	.contacts-grid-text .contacts-grid-text-addres{
+		padding: 0;
+		margin-bottom: 0; 
+	}
+	.contacts-grid-text .contacts-grid-text-tel{
+		line-height: 26px;
+	}
+	.contacts-grid-text .contacts-grid-text-graph{
+		font-size: 18px;
+		margin-bottom: 20px;
 	}
 }/* 1160px */

@@ -72,14 +72,12 @@
 			<div class="services-blocks-padding services-blocks uk-grid uk-grid-small uk-grid-width-large-1-3 uk-grid-width-medium-1-2 uk-grid-width-1-1 uk-margin-large-bottom" data-uk-grid-match="{target:'.service-teaser'}" data-uk-grid-margin>
 				<div>
 					<div class="service-teaser service-birthday">
-<!--						<div class="service-icon"><img src="images/icon-birthday.svg" alt=""></div>-->
 						<div class="service-name">Дни рождения</div>
 						<a href="" class="uk-position-cover"></a>
 					</div>
 				</div>
 				<div>
 					<div class="service-teaser service-group">
-<!--						<div class="service-icon"><img src="images/icon-group.svg" alt=""></div>-->
 						<div class="service-name">Групповые
 						посещения</div>
 						<a href="" class="uk-position-cover"></a>
@@ -88,10 +86,8 @@
 				</div>
 				<div>
 					<div class="service-teaser service-individual">
-<!--						<div class="service-icon"><img src="images/icon-individual.svg" alt=""></div>-->
 						<div class="service-name">Индивидуальное посещение</div>
 						<a href="" class="uk-position-cover"></a>
-
 					</div>
 				</div>
 			</div>
@@ -112,61 +108,184 @@
 				<div>
 					<div class="like-item">
 						<div class="like-icon"><img src="images/holding-a-holiday-1.jpg" alt=""></div>
-						<div class="like-text">
+						<a href="#modal-like-item-1" data-uk-modal class="like-text">
                             <p class="text-stroke">01</p>
                             10&nbsp;интерактивных площадок с&nbsp;прохождением испытаний разной сложности для участников от&nbsp;6&nbsp;лет
+						</a>
                         </div>
+
 					</div>
 				</div>
 				<div>
 					<div class="like-item">
 						<div class="like-icon"><img src="images/holding-a-holiday-2.jpg" alt=""></div>
-						<div class="like-text">
+                        <a href="#modal-like-item-2" data-uk-modal class="like-text">
                             <p class="text-stroke">02</p>
                             Более 400 кв.м для проведения веселого мероприятия с&nbsp;праздничным застольем и&nbsp;развлекательной авторской программой
+						</a>
                         </div>
+
 					</div>
 				</div>
 				<div>
 					<div class="like-item">
 						<div class="like-icon"><img src="images/holding-a-holiday-3.jpg" alt=""></div>
-                        <div class="like-text">
+                        <a href="#modal-like-item-3" data-uk-modal class="like-text">
                             <p class="text-stroke">03</p>
                             Фантастический галактический дизайн с&nbsp;любимыми детскими супергероями
-                        </div>
+                        </a>
+						</div>
 					</div>
 				</div>
 				<div>
 					<div class="like-item">
 						<div class="like-icon"><img src="images/holding-a-holiday-4.jpg" alt=""></div>
-                        <div class="like-text">
+                        <a href="#modal-like-item-4" data-uk-modal class="like-text">
                             <p class="text-stroke">04</p>
                             Задания и&nbsp;аттракционы, разработанные профессиональными психологами, педагогами и&nbsp;игротехниками
-                        </div>
+                        </a>
+						</div>
 					</div>
 				</div>
 				<div>
 					<div class="like-item">
 						<div class="like-icon"><img src="images/holding-a-holiday-5.jpg" alt=""></div>
-                        <div class="like-text">
+                        <a href="#modal-like-item-5" data-uk-modal class="like-text">
                             <p class="text-stroke">05</p>
                             Гарантия полной безопасности&nbsp;&mdash; приключения под контролем профессиональных инструкторов
-                        </div>
+                        </a>
+						</div>
 					</div>
 				</div>
 				<div>
 					<div class="like-item">
 						<div class="like-icon"><img src="images/holding-a-holiday-6.jpg" alt=""></div>
-                        <div class="like-text">
+                        <a href="#modal-like-item-6" data-uk-modal class="like-text">
                             <p class="text-stroke">06</p>
                             Возможность для сопровождающих наблюдать за&nbsp;игрой по&nbsp;телевизору в&nbsp;отдельном зале на&nbsp;удобных диванах
-                        </div>
+                        </a>
+						</div>
 					</div>
 				</div>
 
 			</div>
-		</div>
-	</div>
+		</div><!-- .container-940 -->
+
+        <div id="modal-like-item-1" class="uk-modal">
+            <div class="uk-modal-dialog">
+                <button type="button" class="uk-modal-close uk-close"></button>
+                <div class="uk-modal-header">
+                    <h2>Заголовок1</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+            </div>
+        </div><!-- #modal-like-item-1 -->
+
+        <div id="modal-like-item-2" class="uk-modal">
+            <div class="uk-modal-dialog">
+                <button type="button" class="uk-modal-close uk-close"></button>
+                <div class="uk-modal-header">
+                    <h2>Заголовок2</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+            </div>
+        </div><!-- #modal-like-item-2 -->
+
+        <div id="modal-like-item-3" class="uk-modal">
+            <div class="uk-modal-dialog">
+                <button type="button" class="uk-modal-close uk-close"></button>
+                <div class="uk-modal-header">
+                    <h2>Заголовок3</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+            </div>
+        </div><!-- #modal-like-item-3 -->
+
+        <div id="modal-like-item-4" class="uk-modal">
+            <div class="uk-modal-dialog">
+                <button type="button" class="uk-modal-close uk-close"></button>
+                <div class="uk-modal-header">
+                    <h2>Заголовок4</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+            </div>
+        </div><!-- #modal-like-item-4 -->
+
+        <div id="modal-like-item-5" class="uk-modal">
+            <div class="uk-modal-dialog">
+                <button type="button" class="uk-modal-close uk-close"></button>
+                <div class="uk-modal-header">
+                    <h2>Заголовок5</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+            </div>
+        </div><!-- #modal-like-item-5 -->
+
+        <div id="modal-like-item-6" class="uk-modal">
+            <div class="uk-modal-dialog">
+                <button type="button" class="uk-modal-close uk-close"></button>
+                <div class="uk-modal-header">
+                    <h2>Заголовок6</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+            </div>
+        </div><!-- #modal-like-item-6 -->
+
+	</div><!-- .section-like -->
 
 	<div class="section-grey">
 		<div class="uk-container uk-container-center container-940"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
