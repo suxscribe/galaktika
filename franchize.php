@@ -90,7 +90,7 @@
                 Что вы получаете, приобретая у нас франшизу?
             </div>
             <div class="like-list like-list__franchize uk-grid uk-grid-width-large-1-2" data-uk-grid-margin
-                 data-uk-grid-match>
+                 data-uk-grid-match="{target:'>div>div>.like-text'}">
                 <div>
                     <div class="like-item">
                         <div class="like-icon"><img src="images/franchize-1.jpg" alt=""></div>

@@ -108,7 +108,7 @@
             <div class="uk-text-center section-like__slogan">
                 в нашем центре – это
             </div>
-			<div class="like-list like-list-index uk-grid uk-grid-width-medium-1-2" data-uk-grid-margin data-uk-grid-match>
+			<div class="like-list like-list-index uk-grid uk-grid-width-medium-1-2" data-uk-grid-margin data-uk-grid-match="{target:'div > div > .like-text'}">
 				<div>
 					<div class="like-item">
 						<div class="like-icon"><img src="images/holding-a-holiday-1.jpg" alt=""></div>

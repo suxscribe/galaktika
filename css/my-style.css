@@ -35,11 +35,12 @@
 }
 .like-item{
 	position: relative;
-	margin-bottom: 130px !important;
+	/*margin-bottom: 130px !important;*/
 }
 .like-icon{
-	flex-basis: 300px;
-	margin-right: 0;
+	/*flex-basis: 300px;*/
+	margin-right: 20px;
+	margin-left: -20px;
 }
 .like-icon::before{
 	display: none;
@@ -52,15 +53,16 @@
 	object-fit: cover;
 }
 .like-text{
-	position: absolute;
+	/*position: absolute;*/
 	right: 0;
 	bottom: -130px;
-	width: 300px;
-	height: 175px;
+	/*width: 300px;*/
+	/*height: 175px;*/
+	margin-top: -30px;
 	font-size: 20px;
 	line-height: 24px;
 	border-radius: 13px;
-	padding: 20px 27px 5px 23px;
+	padding: 20px 27px 20px 23px;
 	box-sizing: border-box;
 	background: -moz-linear-gradient(left, rgba(162,54,255,1) 0%, rgba(0,194,255,0.5) 100%);
 	background: -webkit-linear-gradient(left, rgba(162,54,255,1) 0%,rgba(0,194,255,0.5) 100%);
@@ -70,7 +72,7 @@
 	font-size: 40px;
 	line-height: 40px;
 	margin-bottom: 5px;
-	font-weight: 500;
+	font-weight: 600;
 }
 .section-panel .panel-white{
 	padding-top: 83px;
@@ -158,7 +160,7 @@
 	margin-bottom: 65px;
 }
 .like-list__franchize .like-item{
-	margin-bottom: 10px !important;
+	/*margin-bottom: 10px !important;*/
 }
 .like-list__franchize .like-icon{
 	display: none;
@@ -392,18 +394,18 @@ blockquote small{
 		padding-right: 60px;
 	}
 	.like-item{
-		margin-bottom: 215px !important;
+		/*margin-bottom: 215px !important;*/
 	}
 	.like-icon{
-		flex-basis: 250px;
+		/*flex-basis: 250px;*/
 	}
 	.like-icon img{
 		height: 184px;
 	}
 	.like-text{
-		bottom: -175px;
-		width: 270px;
-		height: 200px;
+		/*bottom: -175px;*/
+		/*width: 270px;*/
+		/*height: 200px;*/
 	}
 	.uk-button__fix{
 		display: inline-flex;
@@ -446,21 +448,21 @@ blockquote small{
 		padding: 0 120px;
 	}
 	.like-list__franchize .like-item{
-		width: 470px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 130px !important;
+		/*width: 470px;*/
+		/*margin-left: auto;*/
+		/*margin-right: auto;*/
+		/*margin-bottom: 130px !important;*/
 	}
 	.like-list__franchize .like-icon{
 		display: block;
-		flex-basis: 262px;
+		/*flex-basis: 262px;*/
 	}
 	.like-list__franchize .like-text{
-		position: absolute;
-		bottom: -130px;
-		width: 452px;
-		height: 202px;
-		padding: 20px 27px 5px 23px;
+		/*position: absolute;*/
+		/*bottom: -130px;*/
+		/*width: 452px;*/
+		/*height: 202px;*/
+		padding: 20px 27px 20px 23px;
 		background: -moz-linear-gradient(left, rgba(162,54,255,1) 0%, rgba(0,194,255,0.5) 100%);
 		background: -webkit-linear-gradient(left, rgba(162,54,255,1) 0%,rgba(0,194,255,0.5) 100%);
 		background: linear-gradient(to right, rgba(162,54,255,1) 0%,rgba(0,194,255,0.5) 100%);
@@ -555,10 +557,10 @@ blockquote small{
 		padding-right: 0;
 	}
 	.like-item{
-		margin-bottom: 130px !important;
+		/*margin-bottom: 130px !important;*/
 	}
 	.like-icon{
-		flex-basis: 262px;
+		/*flex-basis: 262px;*/
 	}
 	.like-icon img{
 		height: 151px;
@@ -619,11 +621,11 @@ blockquote small{
 		margin-bottom: 150px;
 	}
 	.like-list__franchize .like-item{
-		width: 460px;
+		/*width: 460px;*/
 	}
 	.like-list__franchize .like-text{
-		width: 425px;
-		height: 213px;
+		/*width: 425px;*/
+		/*height: 213px;*/
 	}
 	.services-title-all{
 		font-size: 70px;

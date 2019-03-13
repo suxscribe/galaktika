@@ -534,7 +534,8 @@ h4, .uk-h4 {
 }
 .like-item {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
+	flex-direction: column;
 }
 
 
@@ -564,7 +565,7 @@ h4, .uk-h4 {
 	background-position: center;
 
 }
-.section-grey_icons {
+.section-grey_icons-2 {
 	background: url(../images/section-white-bg-4.svg) no-repeat,url(../images/section-grey-bg.jpg) no-repeat;
 	background-size: 1300px,cover;
 	background-position: center;
@@ -1120,7 +1121,11 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	}
 
 }
-
+@media (max-width: 1600px) {
+	footer {
+		background-size: 155vw auto;
+	}
+}
 @media (max-width: 959px) {
 	.slide-title {
 		font-size: 40px;
@@ -1351,11 +1356,17 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 		-ms-align-items: flex-start;
 		align-items: flex-start;
 	}
+	footer {
+		background-size: 350vw auto;
+	}
 }
 @media (max-width: 479px) {
 	h2, .uk-h2 {
 		font-size: 20px;
 		line-height: 24px;
+	}
+	footer {
+		background-size: 450vw auto;
 	}
 }
 
