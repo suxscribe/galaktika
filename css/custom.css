@@ -201,12 +201,13 @@ h4, .uk-h4 {
 	min-height: 40px;
 	border-radius: 20px;
 	box-shadow: 0 20px 30px rgba(119,0,254,0.3);
+	white-space: nowrap;
 }
 .uk-button:hover, .uk-button:focus {
 	color: #fff;
 }
 .uk-button-large {
-	font-size: 22px;
+	font-size: 28px;
 	height: 72px;
 	line-height: 72px;
 	border-radius: 36px;
@@ -374,6 +375,7 @@ h4, .uk-h4 {
 }
 .slide-content{
 	position: relative;
+	width: 100%;
 }
 .slide-image img {
 	height: 100%;
@@ -393,6 +395,9 @@ h4, .uk-h4 {
 .slide-text {
 	color:#fff;
 	margin-bottom: 34px;
+	font-size: 24px;
+	/*text-align: center;*/
+	font-weight: 700;
 }
 
 .slide-button {
@@ -723,8 +728,17 @@ h4, .uk-h4 {
 
 }
 
+.contacts-text {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+
 .content {
 	color: rgba(0,0,0,0.8);
+}
+.content ul li {
+	margin-bottom: 8px;
 }
 
 .panel-yellow {
@@ -745,6 +759,7 @@ h4, .uk-h4 {
 	background: #fff;
 	padding: 40px 80px;
 	margin-bottom: 40px;
+	border-radius: 5px;	
 }
 .review-name {
 	font-size: 26px;
@@ -934,6 +949,7 @@ textarea.input_field.input_filled ~ .input_label {
 .panel-form {
 	background: #fff;
 	padding: 40px 80px;
+	border-radius: 5px;
 }
 .panel-form .uk-h3 {
 	color: #000;
@@ -996,6 +1012,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	flex: 0 0 auto;
 }
 
 .z-navbar-toggle {
@@ -1172,6 +1189,31 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 		font-size: 16px;
 		line-height: 20px;
 	}
+	.header-top > div.uk-container {
+		padding: 0 16px;
+	}
+	.navbar-toggle {
+		margin-right: 16px;
+	}
+	.top-contacts {
+		margin-right: 16px;
+	}
+	.top-phone a {
+		line-height: 26px;
+	}
+	.top-address {
+		margin-top: -8px;
+	}
+	.top-button .uk-button {
+		padding: 0 16px;
+	}
+
+	.section-top {
+		padding-top: 0;
+	}
+	.section-top-logo {
+		margin: -10px -50px;
+	}
 	.section-top-title {
 		font-size: 22px;
 		line-height: 28px;
@@ -1183,6 +1225,10 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	}
 	.slide-text {
 		font-size: 16px;
+	}
+	.slideshow-promo-slide .slide-text {
+		font-size: 24px;
+		text-align: center;
 	}
 	h2, .uk-h2 {
 		font-size: 24px;
@@ -1211,7 +1257,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 		display: none;
 	}
 	.slideshow-promo-slide {
-		padding: 0 30px;
+		padding: 0 16px;
 	}
 
 	.slideshow-promo .uk-dotnav > * {
@@ -1242,14 +1288,25 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	}
 
 	.slideshow-photo .uk-slidenav-position {
-		margin: 0 -25px;
+		/*margin: 0 -25px;*/
+	}
+	.slide-content{
+		text-align: center;
+	}
+	.services-blocks-txt {
+		font-size: 20px;
+
 	}
 	.like-item {
 		-ms-align-items: flex-start;
 		align-items: flex-start;
 	}
+	.like-list-index .like-text {
+		font-size: 16px;
+		line-height: 20px;
+	}
 	.like-text {
-		font-size: 20px;
+		font-size: 16px;
 		line-height: 20px;
 	}
 	.like-icon {
@@ -1268,6 +1325,18 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	.like-icon img {
 		display: none;
 	}
+	.section-grey {
+		padding: 30px 0;
+	}
+	.section-padding {
+		padding: 30px 0;
+	}
+	.section-contacts {
+		padding: 40px 0;
+	}
+	#tabs-photo-video {
+		margin: 0 -25px;
+	}
 	.panel-white-icon {
 		display: none;
 	}
@@ -1283,6 +1352,21 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	.contacts-grid {
 		text-align: center;
 	}
+	.contacts-subtitle {
+		font-size: 18px;
+	}
+	.contacts-text {
+		font-size: 16px;
+		font-weight: 500;
+		margin-top: 16px;
+	}
+	.panel-form {
+		padding: 40px 20px;
+	}
+	.franchize-contact {
+		margin-bottom: 30px;
+	}
+
 	.footer-copyright {
 		flex-direction: column;
 		/*justify-content: center;*/
@@ -1315,10 +1399,16 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 		font-size: 13vw;
 		line-height: 20vw;
 	}
+	.grid-text {
+		font-size: 22px;
+		line-height: 26px;
+	}
 	.block-audience {
 		font-size: 16px;
 	}
-
+	.services-title-all {
+		margin-bottom: 30px !important;
+	}
 	.team-item {
 		display: flex;
 		flex-wrap: wrap;
@@ -1326,7 +1416,8 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	}
 	.team-item-photo {
 		flex: 0 0 auto;
-		margin-right: 20px;
+		margin-right: 40px;
+		margin-left: 20px;
 	}
 	.team-item-info {
 		flex: 1 1 auto;
@@ -1334,6 +1425,12 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	.team-item-text {
 		flex: 0 0 100%;
 	}
+
+	.page-services-block {
+		margin-bottom: 40px;
+	}
+
+
 	.footer-logo img {
 		max-width: 100%;
 	}
@@ -1356,8 +1453,33 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 		-ms-align-items: flex-start;
 		align-items: flex-start;
 	}
+
+	.franchize-number_title {
+		font-size: 42px;
+		margin-bottom: 20px !important;
+	}
+	.franchize-about_title {
+		font-size: 32px;
+		margin-top: 20px;
+	}
+	.reviews-list .uk-grid-margin {
+		margin-top: 20px;
+	}
 	footer {
 		background-size: 350vw auto;
+		padding: 30px 0;
+	}
+	.footer-logo {
+		margin-bottom: -30px;
+	}
+	.footer-text {
+		font-size: 20px;
+	}
+	.footer-copyright {
+		opacity: 0.8;
+	}
+	.footer-socials {
+		font-size: 60px;
 	}
 }
 @media (max-width: 479px) {

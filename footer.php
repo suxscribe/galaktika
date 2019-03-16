@@ -3,7 +3,7 @@
 			<div class="footer-logo uk-text-center">
 				<img src="images/logo.png" alt="">
 			</div>
-			<p class="uk-text-center">Уникальный развлекательный центр в Нижнем Новгороде</p>
+			<p class="footer-text uk-text-center">Уникальный развлекательный центр в Нижнем Новгороде</p>
 			<div class="footer-socials uk-text-center">
 				<a href="" class="uk-icon-instagram"></a> <a href="" class="uk-icon-vk"></a>
 			</div>

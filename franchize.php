@@ -152,7 +152,7 @@
                     </div>
                 </div>
             </div>
-            <div class="uk-text-center  uk-margin-large-bottom">
+            <div class="uk-text-center  ">
                 <a href="" class="uk-button uk-button__franchize button-yellow uk-button-large">Оставить заявку</a>
             </div>
         </div>
@@ -201,7 +201,7 @@
 
     <div class="franchize-numbers">
         <div class="uk-container uk-container-center container-940" data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
-            <div class="uk-h1 text-stroke uk-text-center uk-margin-large-bottom">
+            <div class="uk-h1 franchize-number_title text-stroke uk-text-center uk-margin-large-bottom">
                 Галактика Приключений
             </div>
             <div class="uk-h2 uk-text-center uk-margin-large-bottom">
@@ -265,8 +265,9 @@
                     <div class="franchize-numbers-item">
                         <div class="franchize-numbers-item-title grid-number">
                             60%
-                            <span class="franchize-numbers-fantom grid-number"> +12%</span>
+                            
                         </div>
+                        <span class="franchize-numbers-fantom grid-number"> +12%</span>
                         <div class="franchize-numbers-item-txt">
                             Доходность более 60%
                             Ежегодный прирост выручки 12%
@@ -319,7 +320,7 @@
     </div>
     <div class="section-grey section-padding">
         <div class="uk-container container-940" data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
-            <div class="uk-h2 uk-text-center uk-margin-large-bottom">
+            <div class="uk-h2 franchize-about_title uk-text-center uk-margin-large-bottom">
                 Что о нас говорят
             </div>
             <div class="reviews-list reviews-list_alt uk-grid uk-grid-width-large-1-2 uk-grid-small"

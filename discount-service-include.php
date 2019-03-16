@@ -1,4 +1,4 @@
-<div class="uk-container container-940" data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
+<div class="uk-container container-780" data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
 	<div class="slideshow-promo-slide slide-service">
 		<div class="slide-image"><img src="images/slide-image.jpg" alt=""></div>
 		<div class="slide-content">

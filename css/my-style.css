@@ -7,23 +7,18 @@
 .slideshow-promo-slide{
 	/*padding: 0 18px;*/
 }
-.slide-content{
-	text-align: center;
-}
+
 .slide-title{
 	font-size: 50px;
 	line-height: 60px;
 }
-.slide-text{
-	font-size: 24px;
-	text-align: center;
-	margin-bottom: 45px;
-}
+
 .services-blocks-title{
 	padding: 0 30px;
+	font-weight: 700;
 }
 .services-blocks-txt{
-	padding: 0 10px;
+	/*padding: 0 10px;*/
 	margin-top: 0;
 }
 .service-teaser{
@@ -32,16 +27,18 @@
 .section-like .uk-h1{
 	font-size: 42px;
 	line-height: 42px;
+	opacity: 0.8;
 }
 .section-like__slogan{
 	font-size: 28px;
 	line-height: 40px;
 	margin-top: 16px;
 	margin-bottom: 40px;
+	font-weight: 700;
 }
 .like-list-index .like-text{
-	font-size: 20px;
-	line-height: 24px;
+	/*font-size: 20px;*/
+	/*line-height: 24px;*/
 }
 .like-text:hover{
 	color: #fff;
@@ -53,7 +50,7 @@
 .like-icon{
 	/*flex-basis: 300px;*/
 	margin-right: 20px;
-	margin-left: -20px;
+	/*margin-left: -20px;*/
 }
 .like-icon::before{
 	display: none;
@@ -72,6 +69,8 @@
 	/*width: 300px;*/
 	/*height: 175px;*/
 	margin-top: -30px;
+	margin-left: 20px;
+
 	font-size: 20px;
 	line-height: 24px;
 	border-radius: 13px;
@@ -120,6 +119,7 @@
 .service-add-title{
 	font-size: 38px;
 	line-height: 40px;
+	font-weight: 800;
 }
 .service-add-txt{
 	font-size: 20px;
@@ -214,6 +214,7 @@
 	padding: 25px;
 	box-sizing: border-box;
 	background-color: #fff;
+	position: relative;
 }
 .franchize-numbers-item-title{
 	position: relative;
@@ -223,8 +224,8 @@
 }
 .franchize-numbers-fantom{
 	position: absolute;
-	top: 0;
-	right: 0;
+	top: 26px;
+	right: 18px;
 	font-size: 40px;
 	line-height: 35px;
 }
@@ -240,9 +241,10 @@
 	line-height: 50px;
 }
 .slide-service{
-	position: absolute;
+	/*position: absolute;*/
 	height: 150px;
 	box-shadow: 0 20px 30px rgba(119,0,254,0.3);
+	margin-bottom: -100px;
 }
 .slide-service .slide-title{
 	margin-bottom: 5px;
@@ -252,19 +254,24 @@
 	font-size: 23px;
 
 }
+.slide-service .slide-text {
+	margin-bottom: 10px;
+	font-size: 23px;
+	/*text-align: left;*/
+}
 .birthday-promo{
 	margin-bottom: 120px;
 }
-.birthday-promo-title{
+.service-promo-title{
 	font-size: 38px;
 	line-height: 40px;
 }
-.birthday-promo-txt{
+.service-promo-txt{
 	font-size: 32px;
 	line-height: 44px;
 }
 .service-margin-top{
-	margin-top: 30px;
+	margin-top: 80px;
 }
 .panel-service{
 	font-size: 16px;
@@ -349,7 +356,7 @@ blockquote small{
 	margin: auto;
 }
 .panel-service__gbirthday{
-	width: 620px;
+	max-width: 620px;
 	margin: 0;
 }
 .uk-flex-wrap__adaptive{
@@ -364,11 +371,12 @@ blockquote small{
 	justify-content: center;
 }
 .contacts-grid-map{
-	flex-basis: 278px;
-	margin-bottom: 35px;
+	/*flex-basis: 278px;*/
+	/*margin-bottom: 35px;*/
+	text-align: center;
 }
 .contacts-grid-text{
-	flex-basis: 302px;
+	/*flex-basis: 302px;*/
 }
 .contacts-grid-text p{
 	margin: 0;
@@ -398,10 +406,7 @@ blockquote small{
 		padding-left: 48px;
 		padding-right: 48px;
 	}
-	.slide-content{
-		text-align: left;
-		/*margin: auto;*/
-	}
+
 	.slide-title{
 		font-size: 80px;
 		line-height: 70px;
@@ -431,6 +436,9 @@ blockquote small{
 	.service-teaser{
 		padding: 98px 30px;
 	}
+
+
+
 	.section-like .uk-h1{
 		font-size: 60px;
 	}
@@ -527,17 +535,18 @@ blockquote small{
 		line-height: 60px;
 	}
 	.service-width-medium{
-		width: 608px;
+		/*width: 608px;*/
 		margin-left: auto;
 		margin-right: auto;
 	}
 	.slide-service{
-		width: 608px;
+		/*width: 608px;*/
 		height: 216px;
-		top: -45px;
+		/*top: -45px;*/
 		left: 0;
 		right: 0;
 		margin: auto;
+		margin-bottom: -183px;
 	}
 	.service-margin-top{
 		margin-top: 105px;
@@ -580,11 +589,11 @@ blockquote small{
 		width: 608px;
 	}
 	.contacts-grid-map{
-		flex-basis: 344px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 0;
-		order: 1;
+		/*flex-basis: 344px;*/
+		/*margin-left: auto;*/
+		/*margin-right: auto;*/
+		margin-bottom: 30px;
+		order: 0;
 	}
 	.contacts-grid-text{
 		flex-basis: 100%;
@@ -598,8 +607,8 @@ blockquote small{
 	.contacts-grid-text .contacts-grid-text-addres{
 		font-size: 22px;
 		line-height: 26px;
-		padding: 0 30%;
 		margin-bottom: 20px;
+		font-weight: 400;
 	}
 	.contacts-grid-text .contacts-grid-text-tel{
 		line-height: 26px;
@@ -607,6 +616,7 @@ blockquote small{
 	.contacts-grid-text .contacts-grid-text-graph{
 		font-size: 18px;
 		margin-bottom: 20px;
+		font-weight: 400;
 	}
 }/* 768px */
 
@@ -712,7 +722,7 @@ blockquote small{
 		width: auto;
 	}
 	.slide-service{
-		width: 780px;
+		/*width: 780px;*/
 		height: 256px;
 	}
 	.service-height{
@@ -731,8 +741,8 @@ blockquote small{
 		flex-wrap: nowrap;
 	}
 	.contacts-grid-map{
-		margin-left: 60px;
-		margin-right: 75px;
+		/*margin-left: 60px;*/
+		/*margin-right: 75px;*/
 		order: 0;
 	}
 	.contacts-grid-text{
@@ -745,10 +755,7 @@ blockquote small{
 	.contacts-grid-text .contacts-grid-text-title{
 		margin-bottom: 5px;
 	}
-	.contacts-grid-text .contacts-grid-text-addres{
-		padding: 0;
-		margin-bottom: 0; 
-	}
+
 	.contacts-grid-text .contacts-grid-text-tel{
 		line-height: 26px;
 	}
@@ -757,3 +764,33 @@ blockquote small{
 		margin-bottom: 20px;
 	}
 }/* 1160px */
+
+
+@media (max-width: 767px) {
+	.service-promo-title {
+		font-size: 26px;
+		line-height: 28px;
+	}
+	.service-promo-txt {
+		font-size: 20px;
+		line-height: 26px;
+	}
+	.service-bid {
+		margin-bottom: 60px;
+	}
+	.birthday-promo {
+		margin-bottom: 40px;
+	}
+	.panel-service__gbirthday {
+		text-align: center;
+	}
+	.like-list__franchize .like-item{
+		margin-bottom: 40px;
+	}
+	.like-list__franchize .like-text {
+		margin-left: 0;
+	}
+	.like-list__franchize {
+		margin-bottom: 20px;
+	}
+}

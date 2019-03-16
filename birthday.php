@@ -38,11 +38,11 @@
 				<a href="#modal-order" class="uk-button uk-button-large" data-uk-modal>Оставить заявку</a>
 			</div>
 
-			<h2 class="uk-margin-large-bottom birthday-promo-title">
+			<h2 class="uk-margin-large-bottom service-promo-title">
                 Здесь каждый ребенок превращается в Хранителя Галактики!
             </h2>
 
-            <p class="birthday-promo-txt uk-margin-large-bottom">Для вас эксклюзивные авторские программы от наших ведущих, игра-приключение с заданиями в формате «Форт Боярд» и просторные залы для чаепития. Все напитки и угощения можно принести с собой. Мы оборудовали наши залы всем необходимым для праздника</p>
+            <p class="service-promo-txt uk-margin-large-bottom">Для вас эксклюзивные авторские программы от наших ведущих, игра-приключение с заданиями в формате «Форт Боярд» и просторные залы для чаепития. Все напитки и угощения можно принести с собой. Мы оборудовали наши залы всем необходимым для праздника</p>
 
             <p><strong>В каждом зале вас ждут:</strong></p>
 
@@ -62,7 +62,7 @@
 </div>
 
 <div class="section-white section-padding service-margin-top">
-	<div class="uk-container uk-container-center container-780 uk-margin-large-bottom"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
+	<div class="uk-container uk-container-center container-780 "  data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}">
         <div class="uk-h1 text-stroke text-stroke_blue uk-margin-large-bottom uk-text-center services-title-all">
 			Мы предлагаем
 		</div>

@@ -26,14 +26,14 @@
 		<div class="uk-h2 uk-margin-large-bottom">Мы всегда рады ответить на ваши вопросы и помочь в организации детского праздника!</div>
 		<div class="uk-grid uk-grid-width-large-1-2" data-uk-grid-margin>
 			<div>
-				<p><strong>Центр "Галактика приключений"</strong></p>
-				<p>Н. Новгород, Сормовское шоссе 20, 
+				<p class="contacts-subtitle"><strong>Центр "Галактика приключений"</strong></p>
+				<p class="contacts-text">Н. Новгород, Сормовское шоссе 20, 
 ТЦ "Новая эра", этаж 5</p>
 			</div>
 			<div>
-				<p><strong>8 (831) 414-63-33</strong></p>
-				<p>Мы работаем ежедневно с 10:00 до 20:30</p>
-				<p><a href="">info@clubgalaktika.ru</a></p>
+				<p class="contacts-subtitle"><strong>8 (831) 414-63-33</strong></p>
+				<p class="contacts-text">Мы работаем ежедневно с 10:00 до 20:30 <br>
+				<a href="">info@clubgalaktika.ru</a></p>
 			</div>
 
 		</div>
