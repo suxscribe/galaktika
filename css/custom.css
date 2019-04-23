@@ -149,6 +149,7 @@ h4, .uk-h4 {
 }
 .header-top .uk-subnav {
 	margin-top: 0;
+	margin-bottom: 0;
 }
 .header-top .uk-subnav > li {
 	margin-right: 40px;
@@ -262,6 +263,8 @@ h4, .uk-h4 {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
+	position: relative;
+	z-index: 1;
 	/*padding: 45px 0 0 0;*/
 }
 .section-top-nav a {
@@ -898,7 +901,7 @@ width: 100%;
 .uk-form-row {
 	position: relative;
 }
-.uk-form input.input_field, .uk-form textarea {
+.uk-form input.input_field, .uk-form textarea, .uk-form select {
 	background: rgba(255,221,54,0.15);
 	height: 48px;
 	line-height: 48px;
@@ -910,6 +913,13 @@ width: 100%;
 .uk-form textarea {
 	height: 126px;
 }
+.uk-form select {
+	padding-top: 0;
+}
+.uk-form option {
+	color: #444;
+}
+
 .input_label {
   color: var(--color);
   left: 16px;
@@ -1138,6 +1148,12 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	}
 
 }
+
+.modal-notification .uk-modal-dialog {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
 @media (max-width: 1600px) {
 	footer {
 		background-size: 155vw auto;

@@ -80,5 +80,22 @@
 		</div>
 	</div>
 
+
+	<div id="modal-notify" class="uk-modal modal-form modal-notification">
+	  <div class="uk-modal-dialog">
+	    <div class="uk-modal-header uk-text-center uk-margin-large-bottom">
+	      <div class="uk-h3">Выберите город</div>
+	    </div>
+	    <div class="modal-content">
+	      <div class="uk-grid uk-grid-width-medium-1-2 uk-text-center">
+	        <div><a href="" class="uk-button">Санкт-Петербург</a></div>
+	        <div><a href="" class="uk-button">Нижний Новгород</a></div>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
+
+
 </body>
 </html>

@@ -103,6 +103,16 @@ function init() {
 	    }
 	});
 
+	$(function() {
+		var modalnotify = UIkit.modal("#modal-notify");
+    if (!Cookies.get('hideModalnotify')) {
+			modalnotify.show();
+    }
+    Cookies.set('hideModalnotify', true, {
+		expires: 365,
+		path: '/'
+	  });
+	});
 
 
 });

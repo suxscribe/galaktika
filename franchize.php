@@ -368,8 +368,16 @@
                         </div>
                         <div>
                             <div class="uk-form-row">
-                                <input class="input_field uk-width-1-1" type="text" placeholder="" name="city">
+                                
+                                <select class="input_field uk-width-1-1" name="center">
+                                  <option>Нижний Новгород, Сормовское шоссе 20</option>
+                                  <option>Санкт-Петербург, пр. Большевиков 18к2, ТРК "Невский"</option>
+                                  <option value="">Санкт-Петербург, пр. Приморский 72, ТРЦ "Питерлэнд"</option>
+                                  <option value="">Санкт-Петербург, ул.Фучика 2, ТРЦ «РИО»</option>
+                                </select>
                                 <label class="input_label" for="city">Город</label>
+                                <!-- <input class="input_field uk-width-1-1" type="text" placeholder="" name="city">
+                                 -->
                             </div>
                         </div>
                         <div>

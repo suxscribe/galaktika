@@ -11,29 +11,33 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
+	<link rel="manifest" href="/site.webmanifest">
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 
 	<link rel="stylesheet" href="css/uikit.min.css">
 	<link rel="stylesheet" href="css/components/slideshow.min.css">
 	<link rel="stylesheet" href="css/components/dotnav.min.css">
 	<link rel="stylesheet" href="css/components/slidenav.min.css">
-	<link rel="stylesheet" href="css/components/tab">
+	<link rel="stylesheet" href="css/components/sticky.min.css">
+	<link rel="stylesheet" href="css/components/tab.min.css">
 	<link rel="stylesheet" href="css/custom.css">
 	<link rel="stylesheet" href="css/my-style.css">
 
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="https://api-maps.yandex.ru/2.1/?apikey=d4e6eee7-7efa-4043-aaed-c08551d2d3d6&lang=ru_RU" type="text/javascript"></script>
 
+	<script src="js/js.cookie.js"></script>
 	<script src="js/uikit.min.js"></script>
 	<script src="js/components/slideshow.js"></script>
+	<script src="js/components/sticky.min.js"></script>
 	<script src="js/jquery.inputmask.js"></script>
 	<script src="js/custom.js"></script>
 </head>
 <body>
 	
-	<header class="header-top">
+	<header class="header-top" data-uk-sticky>
 		<div class="uk-container uk-container-center uk-container-expand">
 
 			<div class="uk-flex uk-flex-space-between uk-flex-middle ">
@@ -41,7 +45,16 @@
 					<a href="#menu" class=" z-navbar-toggle" data-uk-offcanvas><span></span></a>
 				</div>
 				<nav class="uk-subnav uk-flex-item-1 uk-visible-large">
-					<li><a href="">Нижний Новгород</a></li>
+					<li class="uk-parent" data-uk-dropdown>
+						<a href="">Нижний Новгород</a>
+
+						<div class="uk-dropdown uk-dropdown-nav">
+							<ul class="uk-nav uk-nav-navbar">
+								<li><a href="">Санкт-Петербург</a></li>
+							</ul>
+						</div>
+
+					</li>
 					<li><a href="">Главная</a></li>
 					<li class="uk-parent" data-uk-dropdown>
 						<a href="services.php">Услуги и цены</a>
